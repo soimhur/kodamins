@@ -250,13 +250,9 @@
     position: relative;
   }
   &-title {
-    margin: 0;
-    line-height: 1;
-    left: 0;
-    right: 0;
-    top: 78px;
+    margin-top: 2em;
+    line-height: 1.7;
     text-align: center;
-    position: absolute;
     font-size: 35px;
   }
   &-subtitle {
@@ -267,8 +263,7 @@
     font-family: sans-serif;
   }
   .title-pic {
-    width: 250px;
-    height: 280px;
+    width: 100%;
   }
 }
 
