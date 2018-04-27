@@ -604,7 +604,7 @@ img {
   animation: to-left 0.6s ease-in-out infinite running; }
 
 #section-1 {
-  border: 5px solid #c28b57; }
+  border: 10px solid #c28b57; }
   #section-1 .diamond {
     background: #c28b57; }
 
@@ -613,10 +613,10 @@ img {
   top: 30%;
   left: 0;
   right: 0;
-  font-size: 4em;
+  font-size: 3.5em;
   font-family: 'Cookie';
   color: #c28b57;
-  line-height: 1.2; }
+  line-height: 1; }
 
 .position-parent {
   position: relative; }
@@ -624,7 +624,8 @@ img {
     position: absolute;
     bottom: 2.5em;
     left: 0;
-    right: 0; }
+    right: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 .text-box {
   max-width: 90%;
@@ -635,10 +636,9 @@ img {
     margin-top: 2rem;
     padding-bottom: 2rem; }
   .text-box .dcolor {
-    color: #c28b57;
-    font-size: 0.9em; }
+    color: #c28b57; }
   .text-box .mbig {
-    font-size: 1.1em; }
+    font-size: 1em; }
 
 .flower {
   fill: #c28b57;
@@ -752,12 +752,12 @@ img {
     margin-top: 2em;
     line-height: 1.7;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Cookie'; }
   .gallery-header-subtitle {
-    font-size: 0.5em;
-    color: #777;
-    letter-spacing: 3.2px;
+    font-size: 0.6em;
+    color: #c28b57;
+    letter-spacing: 3px;
     font-weight: 400;
     font-family: sans-serif; }
   .gallery-header .title-pic {
