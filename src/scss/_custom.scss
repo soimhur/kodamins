@@ -152,7 +152,7 @@
 //////// section-1///////////
 /////////////////////////////
 #section-1 {
-  border: 5px solid $gold;
+  border: 10px solid $gold;
   .diamond {
     background: $gold;
   }
@@ -162,10 +162,10 @@
   top: 30%;
   left: 0;
   right: 0;
-  font-size: 4em;
+  font-size: 3.5em;
   font-family: 'Cookie';
   color: $gold;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .position-parent {
@@ -175,6 +175,7 @@
     bottom: 2.5em;
     left: 0;
     right: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 }
 
@@ -189,10 +190,9 @@
   }
   .dcolor {
     color: $gold;
-    font-size: 0.9em;
   }
   .mbig {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 
@@ -356,13 +356,13 @@
     margin-top: 2em;
     line-height: 1.7;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Cookie';
   }
   &-subtitle {
-    font-size: 0.5em;
-    color: #777;
-    letter-spacing: 3.2px;
+    font-size: 0.6em;
+    color: $gold;
+    letter-spacing: 3px;
     font-weight: 400;
     font-family: sans-serif;
   }
